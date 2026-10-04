@@ -90,14 +90,14 @@ def merge_sort_recursive(arr):
 if __name__ == '__main__':
     my_list = [77, 89, 74, 68, 70, 49, 5, 62, 51]
     
-    print("=== Ітеративне сортування злиттям ===")
+    print("Ітеративне сортування злиттям")
     sorted_iter, c_iter, a_iter = merge_sort_iterative(my_list.copy())
     print("Оригінальний список:", my_list)
     print("Відсортований список:", sorted_iter)
     print(f"Кількість порівнянь: {c_iter}")
     print(f"Кількість присвоєнь: {a_iter}\n")
 
-    print("=== Рекурсивне сортування злиттям ===")
+    print("Рекурсивне сортування злиттям")
     sorted_rec, c_rec, a_rec, r_rec = merge_sort_recursive(my_list.copy())
     print("Оригінальний список:", my_list)
     print("Відсортований список:", sorted_rec)
