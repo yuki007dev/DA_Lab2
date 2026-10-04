@@ -54,7 +54,7 @@ if __name__ == '__main__':
     my_list = [77, 89, 74, 68, 70, 49, 5, 62, 51]
     sorted_list = my_list.copy()
     
-    print("=== Швидке сортування (схема Хоара) ===")
+    print("Швидке сортування (схема Хоара)")
     total_c, total_a, total_r = quicksort(sorted_list, 0, len(sorted_list) - 1)
     
     print("Оригінальний список:", my_list)
